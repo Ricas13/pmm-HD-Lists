@@ -1,0 +1,180 @@
+#############################################################
+#                  Other Chart Collections                  #
+#         Created by Yozora, Bullmoose20, & Sohjiro         #
+#############################################################
+#  Call this from your config.yml (Movie or Show)           #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    metadata_path:                                         #
+#      - git: PMM/chart/other                               #
+#        template_variables:                                #
+#          # Sets the collection mode of the collection     #
+#          collection_mode:                                 #
+#          # Sets the value at the start of the sort title  #
+#          collection_section: "01"                         #
+#                                                           #
+#          # For each collection use the "key" to set       #
+#          # the options.                                   #
+#          # Available collections                          #
+#          #   KEY              COLLECTION                  #
+#          #   anidb            AniDB Popular               #
+#          #   commonsense      Common Sense Selected       #
+#          #   stevenlu         StevenLu's Popular Movies   #
+#          #   pirated          Top 10 Pirated Movies       #
+#                                                           #
+#          # Available options. Replace "key" with the      #
+#          # desired collection's key from the chart above. #
+#                                                           #
+#          # Customize summary of collection                #
+#          summary_key: A collection of ...                 #
+#          # Turn the collection on/off                     #
+#          use_key: true                                    #
+#          # Determines collection order in its section     #
+#          order_key:                                       #
+#          # Determines collection order of the collection  #
+#          collection_order_key: custom                     #
+#          # Set visible_library for the collection         #
+#          visible_library_key:                             #
+#          # Set visible_home for the collection            #
+#          visible_home_key:                                #
+#          # Set visible_shared for the collection          #
+#          visible_shared_key:                              #
+#          # Adds missing from the collection to radarr     #
+#          radarr_add_missing_key:                          #
+#          # Adds missing from the collection to sonarr     #
+#          sonarr_add_missing_key:                          #
+#          # Radarr Folder to add to                        #
+#          radarr_folder_key:                               #
+#          # Sonarr Folder to add to                        #
+#          sonarr_folder_key:                               #
+#          # Radarr Tag for added missing                   #
+#          radarr_tag_key:                                  #
+#          # Sonarr Tag for added missing                   #
+#          sonarr_tag_key:                                  #
+#          # Radarr Tag for existing items                  #
+#          item_radarr_tag_key:                             #
+#          # Sonarr Tag for existing items                  #
+#          item_sonarr_tag_key:                             #
+#############################################################
+
+external_templates:
+  git: PMM/templates
+  template_variables:
+    collection_section: "01"
+
+templates:
+  pirated:
+    default:
+      summary_pirated: TorrentFreak.com's Weekly Top Ten Pirated Movies
+    summary: <<summary_<<key>>>>
+
+collections:
+  Based on True Story:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/based-on-or-inspired-by-a-true-story
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+      
+  Mindfuck Movies:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/mindfuck-movies
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+      
+  Outer Space Exploration:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/outer-space-space-exploration-movies
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+
+  Crazy Plot Twists:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/crazy-plot-twists
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+
+  Top Parody Movies:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/top-50-parody-movies-of-all-time
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+
+  Top Romantic Comedies:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/romantic-comedies-rotten-tomatoes-top-rated
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+
+  Best Movies on Netflix:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/best-movies-currently-on-netflix
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+
+  Best Sport Movies:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/150-best-sports-movies-of-all-time
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+
+  Best Fantasy Movies:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/best-fantasy-movies-of-all-time
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
+
+  Best Heist Movies:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/best-heist-movies-of-all-time
+    template:
+      - name: pirated
+      - name: shared
+        allowed_libraries: movie
+      - name: arr
+      - name: custom
