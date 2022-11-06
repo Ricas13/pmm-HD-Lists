@@ -178,7 +178,7 @@ collections:
         allowed_libraries: movie
       - name: arr
       - name: custom
-
+#################################  INFO BELOW #############################
   1001 Movies You Must See Before You Die:
     trakt_list: https://trakt.tv/users/sp1ti/lists/1001-movies-you-must-see-before-you-die
     summary: "1001 Movies You Must See Before You Die is a film reference book edited by Steven Jay Schneider with original essays on each film contributed by over 70 film critics."
@@ -189,3 +189,49 @@ collections:
     collection_order: custom
     sort_title: "*101f"
     schedule: daily 
+    
+  Based on True Events:
+    smart_label: originally_available.desc
+    trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+    summary: Movies based on true events.
+    sort_title: '+2 Based on true events'
+  Chick Flicks:
+    trakt_list: 
+      - https://trakt.tv/users/29zombies/lists/romantic-comedies
+      - https://trakt.tv/users/yirmaster/lists/chick-flicks
+    summary: Get in touch with your feminine side.
+    sort_title: '+2 Chick Flicks'
+    collection_order: alpha
+    collection_mode: default
+  Heist Movies:
+    imdb_list:
+      - https://www.imdb.com/list/ls068224634/
+      - https://www.imdb.com/list/ls009794682/
+    summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
+    sort_title: '+2 Heist'
+    collection_order: alpha
+    collection_mode: default
+  Member Berries:
+    smart_label: release.desc
+    trakt_list: https://trakt.tv/users/netplexflix/lists/member-berries
+    summary: Member Berry movies are movies that contain a lot of call backs or easter eggs to previous movies in the franchise or related franchises. Often franchise reboots.
+    sort_title: '+2 Member Berries'
+    sync_mode: sync
+  Mindfuck Movies:
+    smart_label: title.asc
+    trakt_list: https://trakt.tv/users/benfranklin/lists/best-mindfucks
+    summary: Movies that play with your mind, confuse you, and leads you on. Plot twists or surreal storylines.
+    sort_title: '+2 Mindfuck'
+  Quick Flicks:
+    smart_label: release.desc
+    summary: Movies 90 minutes or less.
+    sort_title: '+2 Quick Flicks'
+    collection_mode: default
+    plex_search:
+      duration.lte: 90
+      genre.not: Animation
+  Time Travel:
+    smart_label: title.asc
+    trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
+    summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
+    sort_title: '+2 Time Travel'
