@@ -13,69 +13,64 @@ collections:
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
-
-
-
-
-
+  Mindfuck Movies:
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    sort_title: !00_Mindfuck_Movies
+    mdblist_list: https://mdblist.com/lists/hdlists/mindfuck-movies
+    summary: Mindfuck Movies
+    url_poster: https://raw.githubusercontent.com/Ricas13/pmm-HD-Lists/main/images/mindfuckmovies.png
+    url_background:
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Outer Space Exploration:
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    sort_title: !00_Outer_Space_Exploration
+    mdblist_list: https://mdblist.com/lists/hdlists/outer-space-space-exploration-movies
+    summary: Mindfuck Movies
+    url_poster: https://raw.githubusercontent.com/Ricas13/pmm-HD-Lists/main/images/outerspaceexploration.png
+    url_background:
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Crazy Plot Twists:
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    sort_title: !00_Crazy_Plot_Twists
+    mdblist_list: https://mdblist.com/lists/hdlists/crazy-plot-twists
+    summary: Crazy Plot Twists
+    url_poster: https://raw.githubusercontent.com/Ricas13/pmm-HD-Lists/main/images/crazyplottwists.png
+    url_background:
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Top Parody Movies:
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    sort_title: !00_Top_Parody_Movies
+    mdblist_list: https://mdblist.com/lists/hdlists/top-50-parody-movies-of-all-time
+    summary: Crazy Plot Twists
+    url_poster: https://raw.githubusercontent.com/Ricas13/pmm-HD-Lists/main/images/topparodymovies.png
+    url_background:
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Best Heist Movies:
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    sort_title: !00_Best_Heist_Movies
+    mdblist_list: https://mdblist.com/lists/hdlists/best-heist-movies-of-all-time
+    summary: Best Heist Movies
+    url_poster: https://raw.githubusercontent.com/Ricas13/pmm-HD-Lists/main/images/bestheistmovies.png
+    url_background:
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
 
 
 #collections:
-#  Based on True Story:
-#    variables:
-#      key: pirated
-#    mdblist_list: https://mdblist.com/lists/hdlists/based-on-or-inspired-by-a-true-story
-#    template:
-#      - name: pirated
-#      - name: shared
-#        allowed_libraries: movie
-#     - name: arr
-#      - name: custom
-#      
-#  Mindfuck Movies:
-#    variables:
-#      key: pirated
-#    mdblist_list: https://mdblist.com/lists/hdlists/mindfuck-movies
-#    template:
-#      - name: pirated
-#      - name: shared
-#        allowed_libraries: movie
-#      - name: arr
-#      - name: custom
-#      
-#  Outer Space Exploration:
-#    variables:
-#      key: pirated
-#    mdblist_list: https://mdblist.com/lists/hdlists/outer-space-space-exploration-movies
-#    template:
-#      - name: pirated
-#      - name: shared
-#        allowed_libraries: movie
-#      - name: arr
-#      - name: custom
-#
-#  Crazy Plot Twists:
-#    variables:
-#      key: pirated
-#    mdblist_list: https://mdblist.com/lists/hdlists/crazy-plot-twists
-#    template:
-#      - name: pirated
-#      - name: shared
-#        allowed_libraries: movie
-#      - name: arr
-#      - name: custom
-#
-#  Top Parody Movies:
-#    variables:
-#      key: pirated
-#    mdblist_list: https://mdblist.com/lists/hdlists/top-50-parody-movies-of-all-time
-#    template:
-#      - name: pirated
-#      - name: shared
-#        allowed_libraries: movie
-#      - name: arr
-#      - name: custom
-#
 #  Top Romantic Comedies:
 #    variables:
 #      key: pirated
