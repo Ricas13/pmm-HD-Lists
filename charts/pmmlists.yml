@@ -3,7 +3,7 @@ collections:
     sort_title: !00_1Requested_Lists
     url_poster: https://raw.githubusercontent.com/Ricas13/pmm-HD-Lists/main/images/requestedcollections.png
   Based on a True Story:
-    smart_label: critic_rating.desc
+    sort_by: critic_rating.desc
     sync_mode: sync
     sort_title: !00_Based_on_a_True_Story
     mdblist_list: https://mdblist.com/lists/hdlists/based-on-or-inspired-by-a-true-story
@@ -14,7 +14,7 @@ collections:
     radarr_search: true
     radarr_monitor: true
   Mindfuck Movies:
-    smart_label: critic_rating.desc
+    sort_by: critic_rating.desc
     sync_mode: sync
     sort_title: !00_Mindfuck_Movies
     mdblist_list: https://mdblist.com/lists/hdlists/mindfuck-movies
@@ -25,7 +25,7 @@ collections:
     radarr_search: true
     radarr_monitor: true
   Outer Space Exploration:
-    smart_label: critic_rating.desc
+    sort_by: critic_rating.desc
     sync_mode: sync
     sort_title: !00_Outer_Space_Exploration
     mdblist_list: https://mdblist.com/lists/hdlists/outer-space-space-exploration-movies
@@ -36,7 +36,7 @@ collections:
     radarr_search: true
     radarr_monitor: true
   Crazy Plot Twists:
-    smart_label: critic_rating.desc
+    sort_by: critic_rating.desc
     sync_mode: sync
     sort_title: !00_Crazy_Plot_Twists
     mdblist_list: https://mdblist.com/lists/hdlists/crazy-plot-twists
@@ -47,7 +47,7 @@ collections:
     radarr_search: true
     radarr_monitor: true
   Top Parody Movies:
-    smart_label: critic_rating.desc
+    sort_by: critic_rating.desc
     sync_mode: sync
     sort_title: !00_Top_Parody_Movies
     mdblist_list: https://mdblist.com/lists/hdlists/top-50-parody-movies-of-all-time
@@ -58,7 +58,7 @@ collections:
     radarr_search: true
     radarr_monitor: true
   Best Heist Movies:
-    smart_label: critic_rating.desc
+    sort_by: critic_rating.desc
     sync_mode: sync
     sort_title: !00_Best_Heist_Movies
     mdblist_list: https://mdblist.com/lists/hdlists/best-heist-movies-of-all-time
